@@ -46,12 +46,14 @@
     </nav>
     <section id="hero">
       <div
-        class="container mt-5 mx-auto p-6 flex space-y-6 flex-col-reverse md:flex-row justify-between md:space-y-0 md:mt-10"
+        class="container mx-auto p-6 flex space-y-6 flex-col-reverse md:flex-row justify-between md:space-y-0 md:mt-10"
       >
         <div
           class="flex flex-col items-center space-y-6 md:w-1/2 md:items-start"
         >
-          <h1 class="max-w-md text-center font-bold text-5xl md:text-left">
+          <h1
+            class="max-w-md text-center font-bold text-4xl md:text-5xl md:text-left"
+          >
             Bring everyone together to build better products
           </h1>
           <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
@@ -69,7 +71,7 @@
         </div>
       </div>
     </section>
-    <section id="hero">
+    <section id="features">
       <div
         class="container mx-auto p-6 flex flex-col md:flex-row md:justify-between"
       >
@@ -96,7 +98,9 @@
               >
                 01
               </div>
-              <p class="font-bold text-lg">Track company-wide progress</p>
+              <p class="font-bold text-base md:text-xl">
+                Track company-wide progress
+              </p>
             </div>
             <p class="text-darkGrayishBlue md:pl-16">
               See how your day-to-day tasks fit into the wider vision. Go from
@@ -114,7 +118,9 @@
               >
                 02
               </div>
-              <p class="font-bold text-lg">Advanced built-in reports</p>
+              <p class="font-bold text-base md:text-xl">
+                Advanced built-in reports
+              </p>
             </div>
             <p class="text-darkGrayishBlue md:pl-16">
               Set internal delivery estimates and track progress toward company
@@ -132,7 +138,9 @@
               >
                 03
               </div>
-              <p class="font-bold text-lg">Everything you need in one place</p>
+              <p class="font-bold text-base md:text-xl">
+                Everything you need in one place
+              </p>
             </div>
             <p class="text-darkGrayishBlue md:pl-16">
               Stop jumping from one service to another to communicate, store
@@ -145,13 +153,13 @@
     </section>
     <!-- testimonials -->
     <section id="testimonials">
-      <div class="container mx-auto my-20">
+      <div class="container mx-auto my-10 mb-5 px-2">
         <h2 class="text-4xl font-bold text-center">What they've said</h2>
         <!-- slider -->
-        <div class="swiper mySwiper my-10">
+        <div class="swiper mySwiper mt-10 mb-5 md:mb-10">
           <div class="swiper-wrapper">
             <!-- testimonial-1 -->
-            <div class="swiper-slide">
+            <div class="swiper-slide px-4 md:px-0">
               <!-- <div class="w-11/12 mx-auto"> -->
               <div>
                 <img
@@ -159,7 +167,7 @@
                   class="w-16 mx-auto -mb-8"
                   alt="anisha-li"
                 />
-                <div class="bg-lightGray pt-10 p-4">
+                <div class="bg-lightGray pt-10 p-4 rounded-lg">
                   <h2 class="text-lg font-bold text-center">Anisha Li</h2>
                   <p class="text-darkGrayishBlue text-center">
                     “Manage has supercharged our team’s workflow. The ability to
@@ -170,7 +178,7 @@
               </div>
             </div>
             <!-- testimonial-2 -->
-            <div class="swiper-slide">
+            <div class="swiper-slide px-4 md:px-0">
               <!-- <div class="w-11/12 mx-auto"> -->
               <div>
                 <img
@@ -178,7 +186,7 @@
                   class="w-16 mx-auto -mb-8"
                   alt="ali"
                 />
-                <div class="bg-lightGray pt-10 p-4">
+                <div class="bg-lightGray pt-10 p-4 rounded-lg">
                   <h2 class="text-lg font-bold text-center">Ali Bravo</h2>
                   <p class="text-darkGrayishBlue text-center">
                     “We have been able to cancel so many other subscriptions
@@ -189,7 +197,7 @@
               </div>
             </div>
             <!-- testimonial-3 -->
-            <div class="swiper-slide">
+            <div class="swiper-slide px-4 md:px-0">
               <!-- <div class="w-11/12 mx-auto"> -->
               <div>
                 <img
@@ -197,7 +205,7 @@
                   class="w-16 mx-auto -mb-8"
                   alt="richard"
                 />
-                <div class="bg-lightGray pt-10 p-4">
+                <div class="bg-lightGray pt-10 p-4 rounded-lg">
                   <h2 class="text-lg font-bold text-center">Richard Watts</h2>
                   <p class="text-darkGrayishBlue text-center">
                     “Manage allows us to provide structure and process. It keeps
@@ -208,7 +216,7 @@
               </div>
             </div>
             <!-- testimonial-4 -->
-            <div class="swiper-slide">
+            <div class="swiper-slide px-4 md:px-0">
               <!-- <div class="w-11/12 mx-auto"> -->
               <div>
                 <img
@@ -216,7 +224,7 @@
                   class="w-16 mx-auto -mb-8"
                   alt="shanai"
                 />
-                <div class="bg-lightGray pt-10 p-4">
+                <div class="bg-lightGray pt-10 p-4 rounded-lg">
                   <h2 class="text-lg font-bold text-center">Shanai Gough</h2>
                   <p class="text-darkGrayishBlue text-center">
                     “Their software allows us to track, manage and collaborate
@@ -227,7 +235,10 @@
               </div>
             </div>
           </div>
-          <div class="swiper-pagination md:hidden"></div>
+          <div
+            class="swiper-pagination md:hidden"
+            style="position: unset; margin-top: 1rem"
+          ></div>
         </div>
         <div class="flex justify-center">
           <a
