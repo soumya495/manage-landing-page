@@ -13,7 +13,10 @@
     />
 
     <title>Frontend Mentor | Manage landing page</title>
-
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
@@ -93,7 +96,7 @@
               >
                 01
               </div>
-              <p class="font-bold text-xl">Track company-wide progress</p>
+              <p class="font-bold text-lg">Track company-wide progress</p>
             </div>
             <p class="text-darkGrayishBlue md:pl-16">
               See how your day-to-day tasks fit into the wider vision. Go from
@@ -111,7 +114,7 @@
               >
                 02
               </div>
-              <p class="font-bold text-xl">Advanced built-in reports</p>
+              <p class="font-bold text-lg">Advanced built-in reports</p>
             </div>
             <p class="text-darkGrayishBlue md:pl-16">
               Set internal delivery estimates and track progress toward company
@@ -129,7 +132,7 @@
               >
                 03
               </div>
-              <p class="font-bold text-xl">Everything you need in one place</p>
+              <p class="font-bold text-lg">Everything you need in one place</p>
             </div>
             <p class="text-darkGrayishBlue md:pl-16">
               Stop jumping from one service to another to communicate, store
@@ -140,5 +143,102 @@
         </div>
       </div>
     </section>
+    <!-- testimonials -->
+    <section id="testimonials">
+      <div class="container mx-auto my-20">
+        <h2 class="text-4xl font-bold text-center">What they've said</h2>
+        <!-- slider -->
+        <div class="swiper mySwiper my-10">
+          <div class="swiper-wrapper">
+            <!-- testimonial-1 -->
+            <div class="swiper-slide">
+              <!-- <div class="w-11/12 mx-auto"> -->
+              <div>
+                <img
+                  src="images/avatar-anisha.png"
+                  class="w-16 mx-auto -mb-8"
+                  alt="anisha-li"
+                />
+                <div class="bg-lightGray pt-10 p-4">
+                  <h2 class="text-lg font-bold text-center">Anisha Li</h2>
+                  <p class="text-darkGrayishBlue text-center">
+                    “Manage has supercharged our team’s workflow. The ability to
+                    maintain visibility on larger milestones at all times keeps
+                    everyone motivated.”
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- testimonial-2 -->
+            <div class="swiper-slide">
+              <!-- <div class="w-11/12 mx-auto"> -->
+              <div>
+                <img
+                  src="images/avatar-ali.png"
+                  class="w-16 mx-auto -mb-8"
+                  alt="ali"
+                />
+                <div class="bg-lightGray pt-10 p-4">
+                  <h2 class="text-lg font-bold text-center">Ali Bravo</h2>
+                  <p class="text-darkGrayishBlue text-center">
+                    “We have been able to cancel so many other subscriptions
+                    since using Manage. There is no more cross-channel confusion
+                    and everyone is much more focused.”
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- testimonial-3 -->
+            <div class="swiper-slide">
+              <!-- <div class="w-11/12 mx-auto"> -->
+              <div>
+                <img
+                  src="images/avatar-richard.png"
+                  class="w-16 mx-auto -mb-8"
+                  alt="richard"
+                />
+                <div class="bg-lightGray pt-10 p-4">
+                  <h2 class="text-lg font-bold text-center">Richard Watts</h2>
+                  <p class="text-darkGrayishBlue text-center">
+                    “Manage allows us to provide structure and process. It keeps
+                    us organized and focused. I can't stop recommending them to
+                    everyone I talk to!”
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- testimonial-4 -->
+            <div class="swiper-slide">
+              <!-- <div class="w-11/12 mx-auto"> -->
+              <div>
+                <img
+                  src="images/avatar-shanai.png"
+                  class="w-16 mx-auto -mb-8"
+                  alt="shanai"
+                />
+                <div class="bg-lightGray pt-10 p-4">
+                  <h2 class="text-lg font-bold text-center">Shanai Gough</h2>
+                  <p class="text-darkGrayishBlue text-center">
+                    “Their software allows us to track, manage and collaborate
+                    on our projects from anywhere. It keeps the whole team
+                    in-sync without being intrusive”
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination md:hidden"></div>
+        </div>
+        <div class="flex justify-center">
+          <a
+            href="#"
+            class="p-3 px-6 rounded-full bg-brightRed text-veryLightGray align-middle hover:bg-lightRed"
+            >Get Started</a
+          >
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
