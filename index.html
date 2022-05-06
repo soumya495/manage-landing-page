@@ -20,6 +20,11 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
+    <img
+      src="images/bg-tablet-pattern.svg"
+      class="bgImage"
+      alt="tablet-graphic"
+    />
     <nav class="container mx-auto p-6">
       <div class="flex items-center justify-between">
         <!-- logo -->
@@ -59,7 +64,7 @@
         </div>
         <!-- menu items mobile -->
         <div
-          class="mobile-menu w-10/12 hidden flex-col items-center space-y-6 py-6 absolute bg-veryLightGray right-1/2 rounded-sm translate-x-1/2 top-24 shadow-xl md:hidden z-50"
+          class="mobile-menu w-10/12 hidden flex-col items-center space-y-6 py-6 absolute bg-white right-1/2 rounded-sm translate-x-1/2 top-24 shadow-xl md:hidden z-50"
         >
           <a href="#" class="hover:text-darkGrayishBlue font-semibold"
             >Pricing</a
@@ -106,7 +111,7 @@
         </div>
       </div>
     </section>
-    <section id="features">
+    <section id="features" class="relative">
       <div
         class="container mx-auto p-6 flex flex-col md:flex-row md:justify-between"
       >
@@ -187,7 +192,12 @@
       </div>
     </section>
     <!-- testimonials -->
-    <section id="testimonials">
+    <section id="testimonials" class="relative">
+      <!-- <img
+        src="images/bg-tablet-pattern.svg"
+        alt="svg-artss"
+        class="bgImage absolute -z-50"
+      /> -->
       <div class="container mx-auto my-10 px-2">
         <h2 class="text-4xl font-bold text-center">What they've said</h2>
         <!-- slider -->
@@ -202,7 +212,7 @@
                   class="w-16 mx-auto -mb-8"
                   alt="anisha-li"
                 />
-                <div class="bg-lightGray pt-10 p-4 rounded-lg">
+                <div class="bg-lightGray pt-10 p-4 rounded-lg z-30">
                   <h2 class="text-lg font-bold text-center">Anisha Li</h2>
                   <p class="text-darkGrayishBlue text-center">
                     “Manage has supercharged our team’s workflow. The ability to
@@ -306,7 +316,7 @@
     <!-- footer -->
     <footer class="bg-veryDarkBlue py-12 px-6">
       <div
-        class="container px-6 max-w-sm mx-auto flex flex-col space-y-16 md:flex-row-reverse md:items-start md:justify-between md:max-w-6xl md:w-full md:space-y-0"
+        class="container px-6 max-w-sm mx-auto flex flex-col space-y-16 md:flex-row-reverse md:items-start md:justify-between md:max-w-full md:w-full md:space-y-0"
       >
         <!-- input field -->
         <div class="flex space-x-2 md:flex-col md:space-y-12 md:w-1/3">

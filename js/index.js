@@ -34,7 +34,6 @@ let hamburgerIcon = document.querySelector('.ham-menu')
 let hamLines = document.querySelectorAll('.ham-menu div')
 let mobMenu = document.querySelector('.mobile-menu')
 let allSections = document.querySelectorAll('section')
-console.log(allSections)
 
 hamburgerIcon.addEventListener('click', function () {
   if (!hamburgerIcon.classList.contains('open')) {
