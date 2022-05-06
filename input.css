@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  /* .openGrad {
+    @apply w-screen h-screen bg-gradient-to-br from-gray-700 via-gray-900 to-black  overflow-y-hidden;
+  } */
+
+  .swiper-pagination span {
+    @apply border-2 border-brightRed w-2.5 h-2.5 bg-brightRed;
+  }
+}
