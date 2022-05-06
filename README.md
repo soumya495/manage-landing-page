@@ -25,6 +25,7 @@ Users should be able to:
 - Tailwind CSS
 - Flexbox
 - Mobile-first workflow
+- **Slider** is build using [SwiperJS](https://swiperjs.com/) 🙌
 
 ### What I learned
 
